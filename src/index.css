@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+/* variables */
+:root {
+  --clr-rose: #E0BFB8;
+  --clr-misty-rose: #FFE4E1;
+  --clr-olivegreen: #556B2F;
+  --clr-seagreen: #8FBC8B;
+  --clr-grey: #778899;
+  --clr-white: #FFF;
+  --font-cursive: "Great Vibes", cursive;
+  --radius: 0.25rem;
+}
+
+.container {
+  max-width: 1903px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('/src/assets/images/lace-top.png'), url('/src/assets/images/lace-bottom.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  background-position: 0 0, right bottom;
+}
+
+.container::before {
+  content: "";
+}
+
+.container-center {
+  padding-top: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img { 
+  width: 60%;
+}

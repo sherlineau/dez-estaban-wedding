@@ -1,0 +1,14 @@
+.story {
+  width: 80%;
+  margin: 0.5rem auto;
+}
+
+.story h1 {
+  font-family: var(--font-cursive);
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.story p {
+  font-size: 1.25rem;
+}

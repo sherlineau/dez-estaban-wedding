@@ -1,0 +1,37 @@
+.navbar {
+  width: 100%;
+}
+
+.top {
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.top h1 {
+  font-size: 3rem;
+}
+
+.top p {
+  font-size: 1.5rem;
+}
+
+.bottom ul{
+  margin: 0 auto;
+  padding: .5rem;
+  width: 90%;
+  background-color: var(--clr-rose);
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.25rem;
+  color: var(--clr-white);
+}
+
+.bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  color: var(--clr-grey);
+}

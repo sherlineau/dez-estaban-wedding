@@ -1,0 +1,23 @@
+.home {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rsvp {
+  background-color: var(--clr-rose);
+  color: var(--clr-white);
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: var(--radius);
+}
+
+.home p {
+  font-size: 2rem;
+}
