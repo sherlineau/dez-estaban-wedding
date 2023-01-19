@@ -1,9 +1,10 @@
 import React from "react";
+import Map from "../../components/Map/Map";
 
 const VenueInfo = () => {
   return (
-    <div>
-
+    <div className="container-center">
+      <Map />
     </div>
   );
 };
