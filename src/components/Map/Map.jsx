@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useCallback, useRef } from "react";
+import React, { useMemo, useState } from "react";
 import {
   GoogleMap,
   useLoadScript,
@@ -32,11 +32,6 @@ const Map = () => {
     }),
     []
   );
-
-  const mapRef = useRef();
-  const onMapLoad = useCallback((map) => {
-    mapRef.current = map;
-  }, []);
 
   const onLoad = (marker) => {
     console.log("marker", marker);
