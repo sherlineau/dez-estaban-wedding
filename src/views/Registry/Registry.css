@@ -1,0 +1,31 @@
+.registry {
+  margin: 3rem auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.registry-card{
+  width: 100%;
+  opacity: 0.75;
+}
+
+.registry-card:hover {
+  opacity: 1;
+}
+
+.registry-card .top {
+  display: flex;
+  justify-content: center;
+}
+
+.registry-card img {
+  display: block;
+  width: 90%;
+  align-content: center;
+}
+
+.registry-card .bottom {
+  width: 80%;
+}
