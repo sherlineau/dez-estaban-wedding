@@ -11,21 +11,18 @@ const Registry = () => {
         <div className="registry-card">
           <a href="https://www.target.com/" target="_blank" rel="noreferrer">
             <img src={target} alt={target} className="top"/>
-            <button className="bottom">Target</button >
           </a>
         </div>
 
         <div className="registry-card">
           <a href="https://www.amazon.com/" target="_blank" rel="noreferrer">
             <img src={amazon} alt={amazon} />
-            <button>Amazon</button>
           </a>
         </div>
 
         <div className="registry-card">
           <a href="https://www.walmart.com/" target="_blank" rel="noreferrer">
             <img src={walmart} alt={walmart} />
-            <button>Walmart</button>
           </a>
         </div>
       </div>
