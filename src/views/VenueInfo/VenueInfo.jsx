@@ -25,8 +25,8 @@ const VenueInfo = () => {
         <div className="venue">
           <Map
             coordinates={{
-              lat: 34.14938524079817,
-              lng: -118.00018707116448,
+              lat: 34.034363756679525,
+              lng: -118.23169403896584,
             }}
             info={{
               place: "Seventh Place",
