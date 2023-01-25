@@ -1,6 +1,7 @@
 .map {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .map p {

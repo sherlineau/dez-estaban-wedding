@@ -5,23 +5,19 @@ import {
   MarkerF,
   InfoWindow,
 } from "@react-google-maps/api";
-import "./Map.css"
+import "./Map.css";
 
-const Map = () => {
+const Map = (props) => {
   const [display, setDisplay] = useState(true);
+  const { coordinates, info } = props;
+  const { place, address, city, link } = info;
 
   const containerStyle = {
     width: "80%",
     height: "500px",
   };
 
-  const center = useMemo(
-    () => ({
-      lat: 34.150299466215195,
-      lng: -117.9998414874454,
-    }),
-    []
-  );
+  const center = useMemo(() => coordinates, []);
 
   const options = useMemo(
     () => ({
@@ -59,15 +55,18 @@ const Map = () => {
         mapContainerStyle={containerStyle}
         options={options}
       >
-        {display ? 
-        <InfoWindow position={center} onCloseClick={(e)=> setDisplay(false)}>
-          <div>
-            <h3>Bethel Fellowship Church</h3>
-            <p>207 S. Encinitas Ave</p>
-            <p>Monrovia, CA 91016</p>
-          </div>
-        </InfoWindow>:""
-        }
+        {display ? (
+          <InfoWindow position={center} onCloseClick={(e) => setDisplay(false)}>
+            <div>
+              <h3>{place}</h3>
+              <p>{address}</p>
+              <p>{city}</p>
+              <a href={link} target="_blank" rel="noreferrer">Get Directions</a>
+            </div>
+          </InfoWindow>
+        ) : (
+          ""
+        )}
         <MarkerF
           position={center}
           onLoad={onLoad}

@@ -1,0 +1,12 @@
+.maps {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.venue {
+  width: 50%;
+  text-align: center;
+}
+
