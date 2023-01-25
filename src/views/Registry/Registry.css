@@ -1,31 +1,24 @@
 .registry {
   margin: 3rem auto;
   width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
 
-.registry-card{
-  width: 100%;
+.content {
+  margin: 0 auto;
+  width: 65%;
+  font-size: 2rem;
+}
+
+.registry img{
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 2rem;
+  width: 20rem;
   opacity: 0.75;
 }
 
-.registry-card:hover {
+.registry img:hover {
   opacity: 1;
-}
-
-.registry-card .top {
-  display: flex;
-  justify-content: center;
-}
-
-.registry-card img {
-  display: block;
-  width: 90%;
-  align-content: center;
-}
-
-.registry-card .bottom {
-  width: 80%;
 }

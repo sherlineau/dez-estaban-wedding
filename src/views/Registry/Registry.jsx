@@ -1,30 +1,25 @@
 import React from "react";
-import target from "../../assets/images/target.png";
-import amazon from "../../assets/images/available_at_amazon_US_EN_logo_stacked_RGB_SQUID.png";
-import walmart from "../../assets/images/walmart.png";
+import amazon from "../../assets/images/amazon.png";
 import "./Registry.css";
 
 const Registry = () => {
   return (
     <div className="container-center">
       <div className="registry">
-        <div className="registry-card">
-          <a href="https://www.target.com/" target="_blank" rel="noreferrer">
-            <img src={target} alt={target} className="top"/>
-          </a>
+        <div className="content">
+          We're looking forward to celebrating with you on our big day. Having
+          you attend our wedding is the greatest gift of all. However, if you're
+          looking for wedding gift ideas, we've registered on Amazon for things
+          that we need to complete our new home and life together. Please click
+          on the button below to view it!
         </div>
-
-        <div className="registry-card">
-          <a href="https://www.amazon.com/" target="_blank" rel="noreferrer">
-            <img src={amazon} alt={amazon} />
-          </a>
-        </div>
-
-        <div className="registry-card">
-          <a href="https://www.walmart.com/" target="_blank" rel="noreferrer">
-            <img src={walmart} alt={walmart} />
-          </a>
-        </div>
+        <a
+          href="https://www.amazon.com/wedding/share/TheCasta%C3%B1edas"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={amazon} alt={amazon} />
+        </a>
       </div>
     </div>
   );
