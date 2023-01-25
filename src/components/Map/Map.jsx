@@ -9,15 +9,20 @@ import "./Map.css";
 
 const Map = (props) => {
   const [display, setDisplay] = useState(true);
-  const { coordinates, info } = props;
-  const { place, address, city, link } = info;
+  const { ceremony, reception } = props;
 
   const containerStyle = {
     width: "80%",
     height: "500px",
   };
 
-  const center = useMemo(() => coordinates, []);
+  const center = useMemo(
+    () => ({
+      lat: 34.09737792437216,
+      lng: -118.1051660796092,
+    }),
+    []
+  );
 
   const options = useMemo(
     () => ({
@@ -50,25 +55,54 @@ const Map = (props) => {
   return (
     <div className="map">
       <GoogleMap
-        zoom={17}
+        zoom={11}
         center={center}
         mapContainerStyle={containerStyle}
         options={options}
       >
         {display ? (
-          <InfoWindow position={center} onCloseClick={(e) => setDisplay(false)}>
+          <InfoWindow
+            position={ceremony.coordinates}
+            onCloseClick={(e) => setDisplay(false)}
+          >
             <div>
-              <h3>{place}</h3>
-              <p>{address}</p>
-              <p>{city}</p>
-              <a href={link} target="_blank" rel="noreferrer">Get Directions</a>
+              <p>Ceremony at:</p>
+              <h3>{ceremony.place}</h3>
+              <p>{ceremony.address}</p>
+              <p>{ceremony.city}</p>
+              <a href={ceremony.link} target="_blank" rel="noreferrer">
+                Get Directions
+              </a>
             </div>
           </InfoWindow>
         ) : (
           ""
         )}
         <MarkerF
-          position={center}
+          position={ceremony.coordinates}
+          onLoad={onLoad}
+          onClick={(e) => setDisplay(true)}
+        />
+        {display ? (
+          <InfoWindow
+            position={reception.coordinates}
+            onCloseClick={(e) => setDisplay(false)}
+          >
+            <div>
+              <p>Reception at:</p>
+              <h3>{reception.place}</h3>
+              <p>{reception.address}</p>
+              <p>{reception.city}</p>
+              <a href={reception.link} target="_blank" rel="noreferrer">
+                Get Directions
+              </a>
+            </div>
+          </InfoWindow>
+        ) : (
+          ""
+        )}
+        <MarkerF
+          position={reception.coordinates}
           onLoad={onLoad}
           onClick={(e) => setDisplay(true)}
         />
