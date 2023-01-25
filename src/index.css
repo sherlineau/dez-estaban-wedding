@@ -31,10 +31,6 @@
   background-position: 0 0, right bottom;
 }
 
-.container::before {
-  content: "";
-}
-
 .container-center {
   padding-top: 2rem;
   width: 100%;
