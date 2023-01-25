@@ -5,6 +5,14 @@
 }
 
 .rsvp {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rsvp-btn {
   background-color: var(--clr-rose);
   color: var(--clr-white);
   border: none;
@@ -13,7 +21,6 @@
   text-decoration: none;
   display: inline-block;
   font-size: 1.5rem;
-  margin: 4px 2px;
   cursor: pointer;
   border-radius: var(--radius);
 }
