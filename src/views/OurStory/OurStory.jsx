@@ -7,7 +7,7 @@ const OurStory = () => {
     <div className="container-center">
       <img src={img} alt="dez and estaban proposal" />
       <div className="story">
-        <h1>#unfinished</h1>
+        <h1>Our Story</h1>
         <div className="our-story content">
           <p>
             Most people think our story started just a few years ago, however
@@ -34,9 +34,10 @@ const OurStory = () => {
           <br />
           <p>
             In 2017, with the help of social media, we were reconnected. After
-            erasing doubts and voicing regrets we reunited one month later.
-            Since then, we vowed not to ever lose each other again. We also
-            decided to blend our family of boys, the Bigs and the Littles.
+            erasing doubts and voicing regrets we realized we left things
+            <span className="unfinished"> #unfinished </span>, so we reunited one month later. Since then, we vowed
+            not to ever lose each other again. We also decided to blend our
+            family of boys, the Bigs and the Littles.
           </p>
           <br />
           <p>Thank you for being a part of our journey.</p>

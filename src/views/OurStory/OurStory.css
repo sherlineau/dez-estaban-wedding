@@ -19,3 +19,9 @@
   text-align: center;
   min-height: 75vh;
 }
+
+.unfinished {
+  font-family: var(--font-cursive);
+  font-weight: 400;
+  font-size: 2rem;
+}
