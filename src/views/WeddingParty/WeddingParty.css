@@ -5,15 +5,37 @@
 }
 
 .party {
-  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
 }
 
-.party ul {
-  list-style-type: none;
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.party-card{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  margin-bottom: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.party p {
   font-size: 1.25rem;
 }
 
-.mb-2 {
-  margin-bottom: 2rem;
+.party h3 {
+  font-size: 1.5rem;
 }
