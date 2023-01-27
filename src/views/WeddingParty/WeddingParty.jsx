@@ -3,10 +3,15 @@ import "./WeddingParty.css";
 import placeholder from "../../assets/images/placeholder-profileImg.jpg";
 
 const WeddingParty = () => {
-  const data = [
+  const bride = [
     {
       position: "Maid of Honor",
       name: "Valerie Vidana",
+      picture: placeholder,
+    },
+    {
+      position: "Flower Girl",
+      name: "Aleanna Castañeda",
       picture: placeholder,
     },
     {
@@ -39,14 +44,16 @@ const WeddingParty = () => {
       name: "Aileen Castañeda",
       picture: placeholder,
     },
-    {
-      position: "Flower Girl",
-      name: "Aleanna Castañeda",
-      picture: placeholder,
-    },
+  ];
+  const groom = [
     {
       position: "Best Man",
       name: "Ramon Mora",
+      picture: placeholder,
+    },
+    {
+      position: "Ring Bearer",
+      name: "Esai Quintero",
       picture: placeholder,
     },
     {
@@ -79,24 +86,38 @@ const WeddingParty = () => {
       name: "Jorge Oseguera",
       picture: placeholder,
     },
-    {
-      position: "Ring Bearer",
-      name: "Esai Quintero",
-      picture: placeholder,
-    },
   ];
 
   return (
     <div className="container-center">
       <h1 className="party-heading">Castañeda Wedding</h1>
       <div className="party">
-        {data.map((person, index) => (
-          <div className="party-card mb-1" key={index}>
-            <img src={person.picture} alt={person.name} className="profile-img" />
-            <p>{person.position}</p>
-            <h3>{person.name}</h3>
-          </div>
-        ))}
+        <div className="left">
+          {bride.map((person, index) => (
+            <div className="party-card mb-1" key={index}>
+              <img
+                src={person.picture}
+                alt={person.name}
+                className="profile-img"
+              />
+              <p>{person.position}</p>
+              <h3>{person.name}</h3>
+            </div>
+          ))}
+        </div>
+        <div className="right">
+          {groom.map((person, index) => (
+            <div className="party-card mb-1" key={index}>
+              <img
+                src={person.picture}
+                alt={person.name}
+                className="profile-img"
+              />
+              <p>{person.position}</p>
+              <h3>{person.name}</h3>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

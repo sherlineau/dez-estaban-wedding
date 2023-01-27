@@ -1,4 +1,4 @@
-.party-heading{
+.party-heading {
   margin-bottom: 1rem;
   font-family: var(--font-cursive);
   font-size: 2.75rem;
@@ -6,17 +6,26 @@
 
 .party {
   width: 80%;
+  display: flex;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .mb-1 {
   margin-bottom: 1rem;
 }
 
-.party-card{
+.party-card {
   display: flex;
   flex-direction: column;
   padding: 2rem;
