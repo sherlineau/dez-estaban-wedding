@@ -1,48 +1,62 @@
 import React from "react";
 import "./WeddingParty.css";
 import placeholder from "../../assets/images/placeholder-profileImg.jpg";
+import aeriel from '../../assets/images/IMG_20230130_173913.jpg'
+import aileen from '../../assets/images/IMG_20230130_173804.jpg'
+import aleanna from '../../assets/images/IMG_20230130_182909.jpg'
+import jennifer from '../../assets/images/IMG_20230130_173854.jpg' 
+import elaine from '../../assets/images/IMG_20230130_173936.jpg'
+import valerie from '../../assets/images/IMG_20230130_184726.jpg'
+import sandra from '../../assets/images/IMG_20230130_182913.jpg'
+import tina from '../../assets/images/IMG_20230130_173828.jpg'
+import desiree from '../../assets/images/IMG_20230131_084747.jpg'
 
 const WeddingParty = () => {
   const bride = [
     {
       position: "Maid of Honor",
       name: "Valerie Vidana",
-      picture: placeholder,
+      picture: valerie,
     },
     {
       position: "Flower Girl",
       name: "Aleanna Castañeda",
-      picture: placeholder,
+      picture: aleanna,
     },
     {
       position: "Bridesmaid",
       name: "Elaine Valencia",
-      picture: placeholder,
+      picture: elaine,
     },
     {
       position: "Bridesmaid",
       name: "Tina Maynes",
-      picture: placeholder,
+      picture: tina,
     },
     {
       position: "Bridesmaid",
       name: "Desiree Rodriguez",
-      picture: placeholder,
+      picture: desiree,
     },
     {
       position: "Bridesmaid",
       name: "Aeriel Vidana",
-      picture: placeholder,
+      picture: aeriel,
     },
     {
       position: "Bridesmaid",
       name: "Sandra McDuffie",
-      picture: placeholder,
+      picture: sandra,
     },
     {
       position: "Bridesmaid",
       name: "Aileen Castañeda",
-      picture: placeholder,
+      picture: aileen,
+    },
+    {
+      position: "Bridesmaid",
+      name: "Jennifer ",
+      picture: jennifer,
     },
   ];
   const groom = [
