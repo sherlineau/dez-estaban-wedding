@@ -1,6 +1,5 @@
 import React from "react";
 import "./WeddingParty.css";
-import placeholder from "../../assets/images/placeholder-profileImg.jpg";
 import aeriel from '../../assets/images/IMG_20230130_173913.jpg'
 import aileen from '../../assets/images/IMG_20230130_173804.jpg'
 import aleanna from '../../assets/images/IMG_20230130_182909.jpg'
@@ -10,6 +9,15 @@ import valerie from '../../assets/images/IMG_20230130_184726.jpg'
 import sandra from '../../assets/images/IMG_20230130_182913.jpg'
 import tina from '../../assets/images/IMG_20230130_173828.jpg'
 import desiree from '../../assets/images/IMG_20230131_084747.jpg'
+import jerry from '../../assets/images/IMG_20230129_183436.jpg'
+import jorge from '../../assets/images/IMG_20230129_185023.jpg'
+import johnathon from '../../assets/images/Screenshot_20230129_185210_Gallery.jpg'
+import mike from '../../assets/images/IMG_20230131_171104.jpg'
+import ramon from '../../assets/images/IMG_20230129_184920.jpg'
+import juan from '../../assets/images/IMG_20230129_184942.jpg'
+import ed from '../../assets/images/IMG_20230129_185020.jpg'
+import esai from '../../assets/images/IMG_20230131_195658.jpg'
+import gage from '../../assets/images/IMG_20230131_195749.jpg'
 
 const WeddingParty = () => {
   const bride = [
@@ -30,18 +38,8 @@ const WeddingParty = () => {
     },
     {
       position: "Bridesmaid",
-      name: "Tina Maynes",
-      picture: tina,
-    },
-    {
-      position: "Bridesmaid",
       name: "Desiree Rodriguez",
       picture: desiree,
-    },
-    {
-      position: "Bridesmaid",
-      name: "Aeriel Vidana",
-      picture: aeriel,
     },
     {
       position: "Bridesmaid",
@@ -50,55 +48,70 @@ const WeddingParty = () => {
     },
     {
       position: "Bridesmaid",
-      name: "Aileen Castañeda",
-      picture: aileen,
+      name: "Jennifer ",
+      picture: jennifer,
     },
     {
       position: "Bridesmaid",
-      name: "Jennifer ",
-      picture: jennifer,
+      name: "Aeriel Vidana",
+      picture: aeriel,
+    },
+    {
+      position: "Bridesmaid",
+      name: "Tina Maynes",
+      picture: tina,
+    },
+    {
+      position: "Bridesmaid",
+      name: "Aileen Castañeda",
+      picture: aileen,
     },
   ];
   const groom = [
     {
       position: "Best Man",
-      name: "Ramon Mora",
-      picture: placeholder,
+      name: "Ramon 'Razor' Mora",
+      picture: ramon,
     },
     {
       position: "Ring Bearer",
       name: "Esai Quintero",
-      picture: placeholder,
+      picture: esai,
     },
     {
       position: "Groomsmen",
-      name: "Johnathon Castañeda",
-      picture: placeholder,
+      name: "Juan 'SgtMaj.' Borunda",
+      picture: juan,
     },
     {
       position: "Groomsmen",
-      name: "Jerry Pasillas",
-      picture: placeholder,
+      name: "Jorge 'El Gran Russo' Oseguera",
+      picture: jorge,
     },
     {
       position: "Groomsmen",
-      name: "Juan Borunda",
-      picture: placeholder,
+      name: "Jerry 'Mouse' Pasillas",
+      picture: jerry,
     },
     {
       position: "Groomsmen",
-      name: "Eddie Aguilar",
-      picture: placeholder,
+      name: "Eddie 'Drak' Aguilar",
+      picture: ed,
+    },
+    {
+      position: "Groomsmen",
+      name: "Johnathon 'JC' Castañeda",
+      picture: johnathon,
+    },
+    {
+      position: "Groomsmen",
+      name: "Mike 'SSgt.' Oseguera",
+      picture: mike,
     },
     {
       position: "Groomsmen",
       name: "Gage Quintero",
-      picture: placeholder,
-    },
-    {
-      position: "Groomsmen",
-      name: "Jorge Oseguera",
-      picture: placeholder,
+      picture: gage,
     },
   ];
 
