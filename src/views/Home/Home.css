@@ -28,3 +28,8 @@
 .home p {
   font-size: 2rem;
 }
+
+h1 {
+  font-family: var(--font-cursive);
+  font-size: 3rem;
+}
