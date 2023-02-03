@@ -25,10 +25,6 @@ const VenueInfo = () => {
         <div className="venue">
           <Map ceremony={ceremony} reception={reception} />
         </div>
-
-        <div className="venue">
- 
-        </div>
       </div>
     </div>
   );
