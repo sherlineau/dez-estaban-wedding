@@ -5,6 +5,7 @@ import OurStory from "./views/OurStory/OurStory";
 import Registry from "./views/Registry/Registry";
 import VenueInfo from "./views/VenueInfo/VenueInfo";
 import WeddingParty from "./views/WeddingParty/WeddingParty";
+import Gallery from "./views/Gallery/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/wedding-party" element={<WeddingParty />} />
         <Route path="/venue" element={<VenueInfo />} />
         <Route path="/registry" element={<Registry />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </div>
   );
