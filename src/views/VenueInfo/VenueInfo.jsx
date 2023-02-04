@@ -25,6 +25,70 @@ const VenueInfo = () => {
         <div className="venue">
           <Map ceremony={ceremony} reception={reception} />
         </div>
+        <div className="parking">
+          <h3>Ceremony Parking:</h3>
+          <ul>
+            <li>
+              116 E Palm Ave{" "}
+              <a
+                href="https://www.google.com/maps/dir//116+E+Palm+Ave,+Monrovia,+CA/@34.1489527,-118.0009171,18z"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Free
+              </a>
+            </li>
+            <li>
+              209 South Encinitas Ave{" "}
+              <a
+                href="https://www.google.com/maps/dir//209+S+Encinitas+Ave,+Monrovia,+CA+91016/@34.1499699,-118.0351089,13z"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Free
+              </a>
+            </li>
+          </ul>
+          <h3>Reception Parking:</h3>
+          <ul>
+            <li>
+              2011 E 7th Pl Parking{" "}
+              <a
+                href="https://www.google.com/maps/dir//2011+East+7th+Street,+Los+Angeles,+CA/@34.0346423,-118.233905,17z"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Paid
+              </a>
+            </li>
+            <li>
+              826 Mateo St{" "}
+              <a
+                href="https://www.google.com/maps/dir//826+Mateo+St,+Los+Angeles,+CA+90021/@34.0328173,-118.2667819,13z"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Free
+              </a>
+            </li>
+            <li>
+              801 Mateo St{" "}
+              <a
+                href="https://www.google.com/maps/dir//801+Mateo+St,+Los+Angeles,+CA/@34.0336501,-118.3727162,11z/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Street
+              </a>
+            </li>
+          </ul>
+          <h3>Nearby Hotels</h3>
+          <ul>
+            <li>Hyatt Place Pasadena <a href="https://www.hyatt.com/en-US/hotel/california/hyatt-place-pasadena/laczp?src=corp_lclb_gmb_seo_laczp#quickbook" target="_blank" rel="noreferrer">Link</a></li>
+            <li>Sheraton Pasadena Hotel <a href="https://www.marriott.com/en-us/hotels/laxsp-sheraton-pasadena-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target="_blank" rel="noreferrer">Link</a></li>
+            <li>Hilton Pasadena <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=PASPHHF" target="_blank" rel="noreferrer">Link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
