@@ -1,0 +1,15 @@
+.memento img{
+  padding: 20px;
+  margin-top: 2rem;
+  width: 20rem;
+  opacity: 0.75;
+}
+
+.memento img:hover {
+  opacity: 1;
+}
+
+.memento a {
+  text-decoration: none;
+  color: black;
+}

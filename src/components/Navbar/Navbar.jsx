@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to="/registry">Registry</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/memento">Photo Gallery</Link>
           </li>
         </ul>
       </div>
