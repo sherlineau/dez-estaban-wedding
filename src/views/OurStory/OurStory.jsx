@@ -21,7 +21,6 @@ const OurStory = () => {
               autoPlay
               src={audio}
               onPlay={(e) => console.log("onPlay")}
-              className="player"
             />
           </div>
           <p>
