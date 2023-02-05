@@ -1,6 +1,9 @@
 import React from "react";
 import img from "../../assets/images/IMG_9182.jpg";
 import "./OurStory.css";
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
+import audio from "../../assets/Perfect.mp3";
 
 const OurStory = () => {
   return (
@@ -9,6 +12,18 @@ const OurStory = () => {
       <div className="story">
         <h1>Our Story</h1>
         <div className="our-story content">
+          <div className="mb-2">
+            <p>
+              Let's celebrate our love and start off with our favorite song,
+              "Perfect" by Coffey Anderson, as we tell our story.
+            </p>
+            <AudioPlayer
+              autoPlay
+              src={audio}
+              onPlay={(e) => console.log("onPlay")}
+              className="player"
+            />
+          </div>
           <p>
             Most people think our story started just a few years ago, however
             our fairytale actual began 29 years ago in 1994, in Duarte, CA.
@@ -35,9 +50,10 @@ const OurStory = () => {
           <p>
             In 2017, with the help of social media, we were reconnected. After
             erasing doubts and voicing regrets we realized we left things
-            <span className="unfinished"> #unfinished </span>, so we reunited one month later. Since then, we vowed
-            not to ever lose each other again. We also decided to blend our
-            family of boys, the Bigs and the Littles.
+            <span className="unfinished"> #unfinished </span>, so we reunited
+            one month later. Since then, we vowed not to ever lose each other
+            again. We also decided to blend our family of boys, the Bigs and the
+            Littles.
           </p>
           <br />
           <p>Thank you for being a part of our journey.</p>
