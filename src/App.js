@@ -6,6 +6,7 @@ import Registry from "./views/Registry/Registry";
 import VenueInfo from "./views/VenueInfo/VenueInfo";
 import WeddingParty from "./views/WeddingParty/WeddingParty";
 import Memento from "./views/Memento/Memento";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Route path="/registry" element={<Registry />} />
         <Route path="/memento" element={<Memento />} />
       </Routes>
+
+      {/* <Footer /> */}
+
     </div>
   );
 }
