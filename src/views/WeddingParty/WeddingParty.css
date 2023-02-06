@@ -23,7 +23,7 @@
 
 .party-card {
   padding: 2rem;
-  height: 17rem;
+  height: 25rem;
 }
 
 .party-card:first-child {
@@ -67,5 +67,9 @@
 
   .party p {
     font-size: 1rem;
+  }
+
+  .party-card {
+    height: 20rem;
   }
 }
