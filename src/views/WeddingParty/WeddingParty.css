@@ -11,13 +11,9 @@
   justify-content: space-evenly;
 }
 
-.left {
+.section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1fr));
-}
-
-.right {
-  display: grid;
+  width: 50%;
   grid-template-columns: repeat(auto-fill, minmax(1fr));
 }
 
@@ -27,6 +23,7 @@
 
 .party-card {
   padding: 2rem;
+  height: 17rem;
 }
 
 .party-card:first-child {
@@ -47,4 +44,28 @@
 
 .party h3 {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .party {
+    width: 100%;
+  }
+
+  .party h3 {
+    font-size: 1.25rem;
+  }
+
+  .party p {
+    font-size: 1rem;
+  }
 }

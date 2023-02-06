@@ -2,20 +2,20 @@
   width: 100%;
 }
 
-.top {
+.brand-name {
   margin: 1rem 0 2rem 0;
   text-align: center;
 }
 
-.top h1 {
+.brand-name h1 {
   font-size: 3rem;
 }
 
-.top p {
+.brand-name p {
   font-size: 1.5rem;
 }
 
-.bottom ul{
+.nav-menu ul{
   margin: 0 auto;
   padding: .5rem;
   width: 90%;
@@ -27,11 +27,68 @@
   color: var(--clr-white);
 }
 
-.bottom a {
+.nav-menu a {
   color: white;
   text-decoration: none;
 }
 
-.bottom a:hover {
+.nav-menu a:hover {
   color: var(--clr-grey);
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  transform: translateY(-50%);
+  display: none;
+  color:  var(--clr-rose);
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .brand-name {
+    display: contents;
+    font-weight: bold;
+  }
+
+  .brand-name h1 {
+    font-size: 2rem;
+  }
+
+  .nav-menu ul {
+    display: none;
+    padding: 1rem;
+  }
+
+  .nav-menu li {
+    text-align: center;
+    line-height: 2.5rem;
+  }
+
+  .nav-menu li a {
+    color: var(--clr-white);
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-menu.expanded ul {
+    display: block;
+  }
 }

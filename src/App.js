@@ -6,7 +6,7 @@ import Registry from "./views/Registry/Registry";
 import VenueInfo from "./views/VenueInfo/VenueInfo";
 import WeddingParty from "./views/WeddingParty/WeddingParty";
 import Memento from "./views/Memento/Memento";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

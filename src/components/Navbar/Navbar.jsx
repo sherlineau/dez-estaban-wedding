@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Navbar.css'
+import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <nav className="navbar">
-      <div className="top">
+      <div className="brand-name">
         <h1>Desiree & Esteban</h1>
         <p>Los Angeles, CA</p>
+        <button
+          className="hamburger"
+          onClick={() => setIsNavExpanded(!isNavExpanded)}>
+          <GiHamburgerMenu />
+        </button>
       </div>
-      <div className="bottom">
+      <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
         <ul>
           <li>
             <Link to="/">Home</Link>

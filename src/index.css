@@ -9,12 +9,12 @@
 
 /* variables */
 :root {
-  --clr-rose: #E0BFB8;
-  --clr-misty-rose: #FFE4E1;
-  --clr-olivegreen: #556B2F;
-  --clr-seagreen: #8FBC8B;
+  --clr-rose: #e0bfb8;
+  --clr-misty-rose: #ffe4e1;
+  --clr-olivegreen: #556b2f;
+  --clr-seagreen: #8fbc8b;
   --clr-grey: #778899;
-  --clr-white: #FFF;
+  --clr-white: #fff;
   --font-cursive: "Great Vibes", cursive;
   --radius: 0.25rem;
 }
@@ -23,14 +23,14 @@ p {
   font-size: 2rem;
 }
 
-
 .container {
   max-width: 1903px;
   margin: 0 auto;
   padding: 2rem 0 4rem 0;
   min-height: 100vh;
   height: 100%;
-  background-image: url('/src/assets/images/lace-top.png'), url('/src/assets/images/lace-bottom.png');
+  background-image: url("/src/assets/images/lace-top.png"),
+    url("/src/assets/images/lace-bottom.png");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
   background-position: 0 0, right bottom;
@@ -43,7 +43,7 @@ p {
   text-align: center;
 }
 
-img { 
+img {
   width: 60%;
 }
 
@@ -53,4 +53,15 @@ img {
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container-center {
+    margin: 1rem auto;
+    padding: 0;
+  }
+
+  img {
+    width: 90%;
+  }
 }

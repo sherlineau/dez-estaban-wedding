@@ -119,7 +119,7 @@ const WeddingParty = () => {
     <div className="container-center">
       <h1 className="party-heading">Castañeda Wedding</h1>
       <div className="party">
-        <div className="left">
+        <div className="section">
           {bride.map((person, index) => (
             <div className="party-card mb-1" key={index}>
               <img
@@ -132,7 +132,7 @@ const WeddingParty = () => {
             </div>
           ))}
         </div>
-        <div className="right">
+        <div className="section">
           {groom.map((person, index) => (
             <div className="party-card mb-1" key={index}>
               <img

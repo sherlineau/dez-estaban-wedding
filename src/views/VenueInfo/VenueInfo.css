@@ -29,3 +29,17 @@
 .parking li {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .maps {
+    display: block;
+  }
+
+  .venue {
+    width: 100%;
+  }
+  
+  .parking {
+    width: 100%;
+  }
+}

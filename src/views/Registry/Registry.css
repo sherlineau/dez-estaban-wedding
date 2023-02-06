@@ -1,5 +1,4 @@
 .registry {
-  margin: 3rem auto;
   width: 80%;
   align-items: center;
 }
@@ -21,4 +20,15 @@
 
 .registry img:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .registry {
+    width: 100%;
+  }
+
+  .content {
+    width: 90%;
+    font-size: 1.25rem;
+  }
 }
