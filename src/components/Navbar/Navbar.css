@@ -73,6 +73,10 @@
     font-size: 2rem;
   }
 
+  .brand-name p {
+    font-size: 1rem;
+  }
+
   .nav-menu ul {
     display: none;
     padding: 1rem;
