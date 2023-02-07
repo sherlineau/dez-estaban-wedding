@@ -48,7 +48,7 @@ const WeddingParty = () => {
     },
     {
       position: "Bridesmaid",
-      name: "Jennifer ",
+      name: "Jennifer O'Grady",
       picture: jennifer,
     },
     {
