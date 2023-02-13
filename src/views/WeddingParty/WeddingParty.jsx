@@ -105,7 +105,7 @@ const WeddingParty = () => {
     },
     {
       position: "Groomsmen",
-      name: "Mike 'SSgt.' Oseguera",
+      name: "Mike 'SSgt.' Lopez",
       picture: mike,
     },
     {

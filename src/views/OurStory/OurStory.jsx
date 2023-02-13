@@ -28,7 +28,7 @@ const OurStory = () => {
           </p>
           <br />
           <p>
-          Immediately after graduating high school and prior to emails, cell phones, and social media, Esteban enlisted in the United States Marine Corps, where they put pen to paper in order to communicate. After some time, life took us to different parts of the world (Arizona and Asia), and we lost contact with one another.
+          Immediately after graduating high school and prior to emails, cell phones, and social media, Esteban enlisted in the United States Marine Corps, so we put pen to paper in order to communicate. After some time, life took us to different parts of the world (Arizona and Asia), and we lost contact with one another.
           </p>
           <br />
           <p>
