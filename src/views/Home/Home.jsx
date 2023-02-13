@@ -5,7 +5,6 @@ import img from "../../assets/images/IMG_9089.jpg";
 const Home = () => {
   const today = new Date().getTime();
   const rsvp = new Date(2023, 3, 13).getTime();
-  console.log(today < rsvp);
   return (
     <div className="container-center home">
       <h1>#unfinished</h1>
