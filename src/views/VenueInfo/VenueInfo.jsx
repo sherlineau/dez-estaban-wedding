@@ -87,6 +87,7 @@ const VenueInfo = () => {
             <li>Hyatt Place Pasadena <a href="https://www.hyatt.com/en-US/hotel/california/hyatt-place-pasadena/laczp?src=corp_lclb_gmb_seo_laczp#quickbook" target="_blank" rel="noreferrer">Link</a></li>
             <li>Sheraton Pasadena Hotel <a href="https://www.marriott.com/en-us/hotels/laxsp-sheraton-pasadena-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target="_blank" rel="noreferrer">Link</a></li>
             <li>Hilton Pasadena <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=PASPHHF" target="_blank" rel="noreferrer">Link</a></li>
+            <li>The Westin Pasadena <a href="https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/" target="_blank" rel="noreferrer">Link</a></li>
           </ul>
         </div>
       </div>
