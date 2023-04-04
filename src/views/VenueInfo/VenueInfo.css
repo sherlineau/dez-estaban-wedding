@@ -10,11 +10,22 @@
 .venue {
   width: 60%;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.venue-location a {
+  font-size: 1.5rem;
+}
+
+.venue-location img {
+  width: 90%;
+  height: 22rem;
+  object-fit: cover;
 }
 
 .parking {
   padding: 1rem;
-  width: 20%;
   text-align: left;
 }
 
@@ -28,6 +39,14 @@
 
 .parking li {
   font-size: 1.5rem;
+}
+
+table {
+  font-size: 1.5rem;
+}
+
+td {
+  padding-left: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
