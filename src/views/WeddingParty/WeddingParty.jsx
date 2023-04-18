@@ -12,7 +12,7 @@ import desiree from '../../assets/images/IMG_20230131_084747.jpg'
 import jerry from '../../assets/images/IMG_20230129_183436.jpg'
 import jorge from '../../assets/images/IMG_20230129_185023.jpg'
 import johnathon from '../../assets/images/Screenshot_20230129_185210_Gallery.jpg'
-import mike from '../../assets/images/IMG_20230131_171104.jpg'
+import eddie from '../../assets/images/image000000.JPG'
 import ramon from '../../assets/images/IMG_20230129_184920.jpg'
 import juan from '../../assets/images/IMG_20230129_184942.jpg'
 import ed from '../../assets/images/IMG_20230129_185020.jpg'
@@ -90,8 +90,8 @@ const WeddingParty = () => {
     },
     {
       position: "Groomsmen",
-      name: "Jerry 'Mouse' Pasillas",
-      picture: jerry,
+      name: "Johnathon 'JC' Castañeda",
+      picture: johnathon,
     },
     {
       position: "Groomsmen",
@@ -100,13 +100,13 @@ const WeddingParty = () => {
     },
     {
       position: "Groomsmen",
-      name: "Johnathon 'JC' Castañeda",
-      picture: johnathon,
+      name: "Eddie Lopez",
+      picture: eddie,
     },
     {
       position: "Groomsmen",
-      name: "Mike 'SSgt.' Lopez",
-      picture: mike,
+      name: "Jerry 'Mouse' Pasillas",
+      picture: jerry,
     },
     {
       position: "Groomsmen",
